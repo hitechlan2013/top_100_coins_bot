@@ -5,7 +5,7 @@ import { addChatId, removeChatId, loadChatIds } from "./storage";
 
 dotenv.config();
 
-// 👉 Bot Token
+//  Bot Token
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "";
 
 if (!TELEGRAM_BOT_TOKEN) {
